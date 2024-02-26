@@ -51,6 +51,22 @@ To get started with the project, follow these steps:
 After deployment, it's essential to monitor the application for performance, security, and scalability. Azure provides various monitoring tools and services like Azure Monitor, Application Insights, etc. Regular maintenance and updates should be performed to ensure the smooth functioning of the application.
 
 
+## screenshort
+![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/9f9255ae-4e0d-47b6-b405-d9ce5cb2dd40)
+![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/338c0a68-1254-4db7-b63e-c9309c155b4d)
+![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/95f83fc1-6d86-45e8-82a5-a8009daa4acd)
+![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/ba521eb3-948e-412e-8290-7b7996c9c72d)
+![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/cd9d0f53-4c16-498f-862d-0e7cf4e87664)
+![vn](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/65d0d3d8-a6d0-44d3-ad8b-b88f8aef2096)
+
+
+
+
+
+
+
+
+
 
 ## License
 
