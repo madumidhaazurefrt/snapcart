@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    padding: 1rem 1rem;
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,.5);
+    background-color: skyblue;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 900;
+    color: white !important;
+}
+#navbarSupportedContent a{
+    color: black;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid white;
+}
+#navbarSupportedContent button{
+    background: white;
+    width: 5rem;
+    border-radius: 15px;
+}
+section{
+    width: 100%;
+    min-height: 6cm;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.4)) ,url(img/grocery2.jpg);
+    background-size:cover;
+    background-position: center;
+    flex-direction:column ;
+    
+    }
+    #home h1{
+        font-size: 70px;
+        text-align: center;
+        
+        color: white;
+        letter-spacing: 3px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 0px 1px 0px #ccc,
+                     0px 2px 0px #ccc,
+                     0px 3px 0px #ccc,
+                     0px 4px 0px #ccc,
+                     0px 5px 0px #ccc,
+                     0px 6px 0px #ccc,
+                     0px 7px 0px #ccc,;
+                     text-align: center;
+                   
+    }
+    #home .input-group{
+        width: 40%;
+        height: 45px;
+        
+    }
+    .sigin{
+        background:skyblue !important;
+        color: white;
+        box-shadow: 2px 4px 5px rgba(0,0,0,.3);
+    }
+    #product{
+        background: #e5e5e5;
+        
+    }
+    #product h1{
+        font-size: 50px;
+        letter-spacing: 2px;
+        font-weight: 700;
+    }
+    #product img{
+        width: 200px;
+        height: 200px;
+    }
+    .card{
+        width: 180px;
+        height: 250px;
+       border: none !important;
+       border-radius: 20px!important;
+       overflow: hidden;
+       text-align: center;
+       justify-content: center;
+       margin: 20px 20px; 
+      
+       
+    }
+    .card :hover{
+        color: skyblue;
+        cursor: pointer;
+    }
+.about  {
+    max-width: 180px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit minmax(21rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+    
+}
+.chat-container{
+    position: fixed;
+    bottom: 150px;
+    right: 10px;
+    z-index: 999;
+    cursor: pointer;
+}
+.chatBtn {
+    position: fixed;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: none;
+    background-color: skyblue; 
+    background-image: orangered;
+    cursor: pointer;
+    padding-top: 3px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.164);
+    position: relative;
+    background-size: 300%;
+    background-position: left;
+    transition-duration: 1s;
+    z-index: 999;
+    opacity: 1;
+    animation: slideLeft 1s ease forwards,floatImage 4s ease-in-out infinite ;
+    animation-delay: .5s ,1.5s;
+
+  }
+  
+  .tooltip {
+    position: absolute;
+    top: -40px;
+    opacity: 0;
+    background-color:orangered;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-duration: .5s;
+    pointer-events: none;
+    letter-spacing: 0.5px;
+  }
+  
+  .chatBtn:hover .tooltip {
+    opacity: 1;
+    transition-duration: .5s;
+  }
+  
+  .chatBtn:hover {
+    
+    background-position: right;
+    transition-duration: 1s;
+
+    background: rgba(255, 165, 0, .2)
+   
+
+  }
+  .chatBtn svg:hover{
+    fill:orangered;
+  }
+

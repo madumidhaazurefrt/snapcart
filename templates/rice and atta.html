@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapcart</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="icon" href="{{ url_for('static', filename='img/123.png') }}">
+    <a href="index.html"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark "id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SNAPCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-expanded="false" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Home 🏠|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Categories 🔎|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">payment💳 |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">my cart 🛒<span id="cartincrement">0</span>|</a>
+              </li>
+              
+             </div>
+             </nav>
+             <section id="products">
+                <div class="container m-5">
+                  <U><h2 class=" text-center my-5"> Rice,Atta And Oils</h2></U>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-5">
+                        <div class="card">
+                          <img src="{{ url_for('static', filename='img/coconut.jpg') }}"> <class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Coconut oil 500ML</h5>
+                             <h4> <p class="card-text">RS.40</p></h4>
+                              <a href="#" class="btn btn-primary"onclick="incrementButton()
+                              ">Add to Cart</a>
+                            </div>
+                          </div>
+                          </div>
+                          <div class="col-lg-2 col-md-2 col-5">
+                            <div class="card">
+                              <img src="{{ url_for('static', filename='img/black cumin1.jpg') }}"> <class="card-img-top">
+                                <div class="card-body">
+                                  <h5 class="card-title">Black Cumin oil 500ML</h5>
+                                 <h4> <p class="card-text">RS.50</p></h4>
+                                  <a href="#" class="btn btn-primary"onclick="incrementButton()
+                                  ">Add to Cart</a>
+                                </div>
+                              </div>
+                     </div>
+       <div class="col-lg-2 col-md-2 col-5">
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/penutoil1.jpg') }}"> <class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Penut oil <br>500ML</h5>
+             <h4> <p class="card-text">RS.70</p></h4>
+              <a href="#" class="btn btn-primary"onclick="incrementButton()
+              ">Add to Cart</a>
+            </div>
+          </div>
+</div>              
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/honey.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Original Honey(Then) 200ML</h5>
+         <h4> <p class="card-text">RS.80</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div> 
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/basmati rice.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Basmati Rice 1KG</h5>
+       <h4> <p class="card-text">RS.100</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>       
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/muthaim rice.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Muthaiyam  Rice 1KG</h5>
+       <h4> <p class="card-text">RS.70</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/black rice.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Black  Rice 1KG</h5>
+       <h4> <p class="card-text">RS.90</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div> 
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/pure white rice.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> White  Rice 1KG</h5>
+       <h4> <p class="card-text">RS.10
+        </p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>   
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/bullet atta.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> Bullet Atta 1KG</h5>
+       <h4> <p class="card-text">RS.50
+        </p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/fortune atta.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Fortune Atta1KG</h5>
+       <h4> <p class="card-text">RS.90
+        </p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div> 
+</div></div>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</section>
+</body>
+</html>

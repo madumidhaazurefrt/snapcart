@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapcart</title>
+    <link rel="icon" href="{{ url_for('static', filename='123.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <a href="index.html"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark "id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SNAPCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-expanded="false" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Home 🏠|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Categories 🔎|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">payment💳 |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">my cart 🛒<span id="cartincrement">0</span>|</a>
+              </li>
+              </ul>
+             </div>
+             </nav>
+             <section id="products">
+                <div class="container m-5">
+                  <h2 class=" text-center my-5">Ice Creams And Juicies</h2>
+                  <u><h3 class=" text-center my-5"> Ice Creams</h3></u>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-5">
+                        <div class="card">
+                          <img src="{{ url_for('static', filename='img/choco Ice.jpg') }}" > <class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title"> Cone Ice Cream 3Pieces</h5>
+                             <h4> <p class="card-text">RS.90</p></h4>
+                              <a href="#" class="btn btn-primary"onclick="incrementButton()
+                              ">Add to Cart</a>
+                            </div>
+                          </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+        <img src="{{ url_for('static', filename='img/cube Ice.jpg') }}" > <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">  Cube Ice Cream 3Pieces</h5>
+         <h4> <p class="card-text">RS.30</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/cofee Ice.jpg') }}" > <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">  Coffee Ice Cream 1 Scoop</h5>
+         <h4> <p class="card-text">RS.30</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/ice2.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Salad Ice Cream 3 Scoop (With Bowl)</h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/oreo ice.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Oreo Ice Cream 1Scoop</h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/3flavour.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> MixedFlavours Ice Cream </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/vannila.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> VannilaFlavours Ice Cream </h5>
+         <h4> <p class="card-text">RS.20</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/strawberry small.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Strawberry Ice Cream </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/pistha oreo.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Pistha Oreo Ice Cream </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mango watermelon.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Mango Flavour Ice Cream </h5>
+         <h4> <p class="card-text">RS.20</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/stick watermelon.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Stick watermelon Ice Cream </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/stick choci.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Stick ChocoBar Ice Cream </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<u><h3 class=" text-center my-5">Juices</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/lemon juices1.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Lemon Mint With( Spearmint) </h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mixed fruits juices.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mixed Fruit Juices </h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/tomato juices.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Tomato With(Sparemint) </h5>
+         <h4> <p class="card-text">RS.30</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/orange juices.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Orange With(Sparemint) </h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/banana juices.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Banana With(Sparemint) </h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mixed juices.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mixed With(Sparemint) </h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div><script src="{{ url_for('static', filename='main.js') }}"></script>
+</div>
+</div>
+</section>
+</body>
+</html>

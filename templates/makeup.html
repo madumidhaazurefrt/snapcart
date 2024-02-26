@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapcart</title>
+    <link rel="icon" href="{{ url_for('static', filename='123.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <a href="index.html"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark "id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SNAPCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-expanded="false" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('index') }}">Home 🏠|</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="{{ url_for('index') }}">Categories 🔎|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">payment💳 |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">my cart 🛒<span id="cartincrement">0</span>|</a>
+              </li>
+             </div>
+             </nav>
+             <section id="products">
+                <div class="container m-5">
+                  <h2 class=" text-center my-5">Makeup And Skincare</h2>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-5">
+                        <div class="card">
+                          <img src="{{ url_for('static', filename='img/toner makeup.jpg') }}"> <class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Toner</h5>
+                             <h4> <p class="card-text">RS.200</p></h4>
+                              <a href="#" class="btn btn-primary"onclick="incrementButton()
+                              ">Add to Cart</a>
+                            </div>
+                          </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/multani makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Multani matti</h5>
+         <h4> <p class="card-text">RS.300</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/base seter makeup.jpg') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Base Seter</h5>
+         <h4> <p class="card-text">RS.250</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/aleo vera jel makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Aloe Veragel</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/multani green makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Multani Matti </h5>
+         <h4> <p class="card-text">RS.350</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/compack powder makeup.avif') }}"><class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Compact Powder </h5>
+         <h4> <p class="card-text">RS.650</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/lakme sunscreen makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Lakme Sunscreen</h5>
+         <h4> <p class="card-text">RS.250</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/orange facemask makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Orange Facemask</h5>
+         <h4> <p class="card-text">RS.100</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/himalayan facewash makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Facewash</h5>
+         <h4> <p class="card-text">RS.190</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/beetroot jel  makeup.avif') }}"> <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Beetroot Gel</h5>
+         <h4> <p class="card-text">RS.350</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</div>
+</div>
+</section>
+</body>
+</html>                                         
+                                            

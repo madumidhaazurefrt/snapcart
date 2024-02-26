@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapcart</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/123.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <a href="index.html"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+</head>
+<body>
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark "id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SNAPCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-expanded="false" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Home 🏠|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Categories 🔎|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">payment💳 |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">my cart 🛒<span id="cartincrement">0</span>|</a>
+              </li>
+             </div>
+             </nav>
+             <section id="products">
+                <div class="container m-5">
+                  <h2 class=" text-center my-5"> Tea And Coffee Powder</h2>
+                  <u><h3 class=" text-center my-5"> Tea Powder</h3></u>
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-5">
+                        <div class="card">
+                          <img src="{{ url_for('static', filename='img/taj tea powder.jpg') }}"><class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Taj TeaPowder<br> 100g</h5>
+                             <h4> <p class="card-text">RS.25</p></h4>
+                              <a href="#" class="btn btn-primary"onclick="incrementButton()
+                              ">Add to Cart</a>
+                            </div>
+                          </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/tea2.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Instant Tea <br> 100g</h5>
+       <h4> <p class="card-text">RS.20</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/chai tea powder.jpg') }}"><class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Chai Tea <br> 100g</h5>
+       <h4> <p class="card-text">RS.40</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/mint tea.jpg') }}"><class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Mint Tea <br> 100g</h5>
+       <h4> <p class="card-text">RS.70</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/black tea powder.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Black Tea Powder <br> 100g</h5>
+       <h4> <p class="card-text">RS.30</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/herbal tea.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Herbal Tea Powder 100g</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/lemon tea.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Lemon Tea Powder 100g</h5>
+       <h4> <p class="card-text">RS.40</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/matcha tea.jpg') }}"><class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Matcha Tea Powder 100g</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/rooibos tea powder.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Rooibos Tea Powder 100g</h5>
+       <h4> <p class="card-text">RS.80</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<u><h3 class=" text-center my-5"> Coffee Powder</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/Krs Coffee.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">KrsCoffee Powder 100g</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/bru coffee.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Bru Powder <br>100g</h5>
+       <h4> <p class="card-text">RS.10</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/hot coffee coffee.jpg') }}"><class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Hot Coffee Powder 100g</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/sunrise coffeee.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Sunrise Coffee Powder 100g</h5>
+       <h4> <p class="card-text">RS.90</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/green tends coffee.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Green Tends Coffee powder  100g</h5>
+       <h4> <p class="card-text">RS.20</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/neskton sunrise coffee.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Nescafe Coffee powder  100g</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</div>
+</div>
+</section>
+</body>
+</html>

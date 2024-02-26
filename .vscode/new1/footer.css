@@ -1,0 +1,79 @@
+body, h1, h2, h3, p {
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the footer container */
+.footer {
+  background-color:skyblue;
+  color: #fff;
+  padding: 20px;
+}
+
+/* Style the heading */
+.heading h2 {
+  font-size: 24px;
+}
+
+/* Style the services section */
+.services h4 {
+  color: black;
+}
+
+.services a {
+  color:black;
+  text-decoration: none;
+}
+
+/* Style the social media section */
+.social-media h4 {
+  color:black;
+}
+
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the quick links section */
+.links h4 {
+  color:black;
+}
+
+.links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the details section */
+.details h4 {
+  color: black;
+}
+
+.details a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Style the footer hr and copyright text */
+hr {
+  border-color:black;
+}
+
+footer {
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .content > div {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+}

@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snapcart</title>
+    <link rel="icon" href="{{ url_for('static', filename='img/123.png') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <a href="index.html"></a>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+
+<body> 
+    <!--nav bar-->
+    <nav class="navbar navbar-expand-lg navbar-dark "id="navbar">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">SNAPCART</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+           data-bs-target="#navbarSupportedContent"
+           aria-expanded="false" >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Home 🏠|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/">Categories 🔎|</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">payment💳 |</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link"  href="/payment">my cart 🛒<span id="cartincrement">0</span>|</a>
+              </li>
+              </ul>
+             </div>
+             </nav>
+             <section id="products">
+                <div class="container m-5">
+                  <h2 class=" text-center my-5">Sauses And Breakfast</h2>
+                  <u> <h3 class=" text-center my-5">Mayanoses</h3></u>
+                 
+                  <div class="row">
+                    <div class="col-lg-2 col-md-2 col-5">
+                        <div class="card">
+                          <img src="{{ url_for('static', filename='img/egg mayanose.jpg') }}">   <class="card-img-top">
+                            <div class="card-body">
+                              <h5 class="card-title">Egg Mayanose 500ml</h5>
+                             <h4> <p class="card-text">RS.60</p></h4>
+                              <a href="#" class="btn btn-primary"onclick="incrementButton()
+                              ">Add to Cart</a>
+                            </div>
+                          </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mint mayanose.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mint Mayanose 500ml</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-5">
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/dukes mayanose.jpg') }}">   <class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Dukes Mayanose 500ml</h5>
+             <h4> <p class="card-text">RS.90</p></h4>
+              <a href="#" class="btn btn-primary"onclick="incrementButton()
+              ">Add to Cart</a>
+            </div>
+          </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/lemon mayanose.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Lemon Mayanose 500ml</h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-5">
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/onion mayanose.jpg') }}">   <class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Onion And <br>Garlic Mayanose 500ml</h5>
+             <h4> <p class="card-text">RS.80</p></h4>
+              <a href="#" class="btn btn-primary"onclick="incrementButton()
+              ">Add to Cart</a>
+            </div>
+          </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/white mayanose.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">White Mayanose 500ml</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+ </div>
+ <div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/kewpie mayanose.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Kewpie Mayanose 500ml</h5>
+         <h4> <p class="card-text">RS.90</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+      </div>
+      <div class="col-lg-2 col-md-2 col-5">
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/tomato mayanose.jpg') }}">  <class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Tomato Mayanose 500ml</h5>
+             <h4> <p class="card-text">RS.70</p></h4>
+              <a href="#" class="btn btn-primary"onclick="incrementButton()
+              ">Add to Cart</a>
+            </div>
+          </div>
+ </div>
+ <u> <h3 class=" text-center my-5">Butters</h3></u>
+ <div class="row">
+    <div class="col-lg-2 col-md-2 col-5">
+        <div class="card">
+          <img src="{{ url_for('static', filename='img/penut butter.jpg') }}">   <class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Penut Butter 200ml</h5>
+             <h4> <p class="card-text">RS.150</p></h4>
+              <a href="#" class="btn btn-primary"onclick="incrementButton()
+              ">Add to Cart</a>
+            </div>
+          </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/almond butter.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Almond Butter 300ml</h5>
+         <h4> <p class="card-text">RS.80</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/cashew butter.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cashew Butter 300ml</h5>
+         <h4> <p class="card-text">RS.90</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/sundrop penut butter.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Sundrop Butter 300ml</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/fresh butter.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Fresh PenutButter 300ml</h5>
+         <h4> <p class="card-text">RS.70</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/choco butter.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Choco Butter 500ml</h5>
+         <h4> <p class="card-text">RS.200</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<u> <h3 class=" text-center my-5">Cheeses</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/full cheese.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Full Chesese 500ml</h5>
+         <h4> <p class="card-text">RS.250</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/ghee cheese.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Ghee Chesese 500ml</h5>
+         <h4> <p class="card-text">RS.290</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/cube cheese.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cube Chesese 500ml</h5>
+         <h4> <p class="card-text">RS.100</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/honey cheese.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Honey<br> Chesese(bowl) 500ml</h5>
+         <h4> <p class="card-text">RS.150</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/melted cheese.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Melted<br> Chesese(bowl) 500ml</h5>
+         <h4> <p class="card-text">RS.90</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mint chese.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mint Chesese 500ml</h5>
+         <h4> <p class="card-text">RS.100</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<u> <h3 class=" text-center my-5">Jams</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/jam hut.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Jam Hut <br>500ml</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/apple jam.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Apple Jam <br>500ml</h5>
+         <h4> <p class="card-text">RS.70</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/strawberry jam.jpg') }}">   <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Strawberry Jam 500ml</h5>
+         <h4> <p class="card-text">RS.100</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/Pomegranate jam.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Pomegranate Jam 500ml</h5>
+         <h4> <p class="card-text">RS.200</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/strawberry jelly jam.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Strawberry Jelly Jam 500ml</h5>
+         <h4> <p class="card-text">RS.250</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/bottle strawberry jam.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">BottleStrawberry Jam 500ml</h5>
+         <h4> <p class="card-text">RS.90</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<u> <h3 class=" text-center my-5">Curuds</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/organic curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Organic Curud 500ml</h5>
+         <h4> <p class="card-text">RS.80</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/mint curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Mint Curud 500ml</h5>
+         <h4> <p class="card-text">RS.70</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/nuts curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Nuts Curud 500ml</h5>
+         <h4> <p class="card-text">RS.90</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/small curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Small Curud 500ml</h5>
+         <h4> <p class="card-text">RS.30</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/original curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Original Curud 500ml</h5>
+         <h4> <p class="card-text">RS.40</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/cucumber curud.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title">Cucumber Curud 500ml</h5>
+         <h4> <p class="card-text">RS.30</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<u> <h3 class=" text-center my-5">Breakfasts</h3></u>
+<div class="col-lg-2 col-md-2 col-5">
+    <div class="card">
+      <img src="{{ url_for('static', filename='img/oats1.jpg') }}">  <class="card-img-top">
+        <div class="card-body">
+          <h5 class="card-title"> Safflo Oats<br> 300ml</h5>
+         <h4> <p class="card-text">RS.50</p></h4>
+          <a href="#" class="btn btn-primary"onclick="incrementButton()
+          ">Add to Cart</a>
+        </div>
+      </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/oats2.jpg') }}">  <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title"> Cardio  Oats 300ml</h5>
+       <h4> <p class="card-text">RS.80</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/milk oats.jpg') }}"> <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Choco Milk  Oats 300ml</h5>
+       <h4> <p class="card-text">RS.90</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/ring oats.jpg') }}">  <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Ring Milk  Oats 300ml</h5>
+       <h4> <p class="card-text">RS.50</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/fresh milk cereals.jpg') }}">  <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Choco Cereals 300ml</h5>
+       <h4> <p class="card-text">RS.70</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<div class="col-lg-2 col-md-2 col-5">
+  <div class="card">
+    <img src="{{ url_for('static', filename='img/honey flakes.jpg') }}">  <class="card-img-top">
+      <div class="card-body">
+        <h5 class="card-title">Honey Flakes 300ml</h5>
+       <h4> <p class="card-text">RS.90</p></h4>
+        <a href="#" class="btn btn-primary"onclick="incrementButton()
+        ">Add to Cart</a>
+      </div>
+    </div>
+</div>
+<script src="{{ url_for('static', filename='main.js') }}"></script>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
