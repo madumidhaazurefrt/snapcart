@@ -164,7 +164,11 @@ def sweets():
 @app.route('/tea and cofee')
 def teaandcofee():
     return render_template("tea and cofee.html")
-    
+
+@app.route('/chatbot')
+def chatbot():
+    return render_template("chatbot.html")
+
 
 if __name__ == '__main__':
     app.run(debug=True)
