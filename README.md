@@ -64,7 +64,7 @@ After deployment, it's essential to monitor the application for performance, sec
 ![vn](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/65d0d3d8-a6d0-44d3-ad8b-b88f8aef2096)
 <img width="960" alt="monitor2" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/adb0e283-f1f0-4064-9963-0d093bfba9ab">
 <img width="960" alt="chatbot queries" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba9a1901-39c4-4494-ab6c-1fecdadd2b66">
-<img width="960" alt="chatbot queries" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ebb295b7-eea0-4296-9be0-6e247aee45f1">
+
 
 
 <img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/aec52c95-668a-47f8-b147-59235cfc08c3"># snapcart
