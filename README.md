@@ -52,6 +52,8 @@ After deployment, it's essential to monitor the application for performance, sec
 
 
 ## screenshort
+<img width="960" alt="azure portal" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba47df9f-6758-42a7-85aa-d28d693814da">
+
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/9f9255ae-4e0d-47b6-b405-d9ce5cb2dd40)
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/338c0a68-1254-4db7-b63e-c9309c155b4d)
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/95f83fc1-6d86-45e8-82a5-a8009daa4acd)
@@ -67,14 +69,15 @@ After deployment, it's essential to monitor the application for performance, sec
 <img width="960" alt="image" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/995a7e0a-32c8-41c4-b887-afafe0eb4b40">
 <img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/01665364-e095-4877-982f-824406e587ce">
 <img width="960" alt="project categories" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/5a1351f3-1444-438d-aa2c-e01e1dae81dd">
+<img width="960" alt="ice cream category project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/65f6198b-a361-43ad-be48-91f5dca6e830">
+
 <img width="960" alt="payment project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/30062195-b5b4-4313-857c-cfb65f4217a4">
 <img width="960" alt="login project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/e26bc9e4-eb29-4c2d-a3c2-7751e8a79c36">
-<img width="960" alt="ice cream category project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/65f6198b-a361-43ad-be48-91f5dca6e830">
+
 <img width="960" alt="chatbot project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/12410844-108b-4e53-83cd-2c460ccb0cf7">
 <img width="960" alt="about1 project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ff68f613-d1d9-49e7-b005-f56b34f4330a">
 <img width="960" alt="about project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/665bda93-bafc-4a5c-ac14-82002a81f028">
 <img width="960" alt="chatbot queries" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ebb295b7-eea0-4296-9be0-6e247aee45f1">
-<img width="960" alt="azure portal" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba47df9f-6758-42a7-85aa-d28d693814da">
 
 
 #Youtube demo Url
