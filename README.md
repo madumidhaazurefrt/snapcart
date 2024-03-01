@@ -54,7 +54,8 @@ After deployment, it's essential to monitor the application for performance, sec
 ## screenshort
 <img width="960" alt="azure portal" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba47df9f-6758-42a7-85aa-d28d693814da">
 
-![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/9f9255ae-4e0d-47b6-b405-d9ce5cb2dd40)
+<img width="960" alt="image" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ca028ccb-e561-47bc-9e49-9a8a1190b7c4">
+
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/338c0a68-1254-4db7-b63e-c9309c155b4d)
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/95f83fc1-6d86-45e8-82a5-a8009daa4acd)
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/ba521eb3-948e-412e-8290-7b7996c9c72d)
