@@ -1,4 +1,4 @@
-# snapcart
+<img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/aec52c95-668a-47f8-b147-59235cfc08c3"># snapcart
 # SnapCart E-commerce Project README
 
 Welcome to the SnapCart E-commerce Project! This project aims to develop an e-commerce platform using various technologies and tools such as HTML, CSS, JavaScript, Python, Flask, Azure, and AI integration.
@@ -58,6 +58,41 @@ After deployment, it's essential to monitor the application for performance, sec
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/ba521eb3-948e-412e-8290-7b7996c9c72d)
 ![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/cd9d0f53-4c16-498f-862d-0e7cf4e87664)
 ![vn](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/65d0d3d8-a6d0-44d3-ad8b-b88f8aef2096)
+
+<img width="960" alt="image" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/995a7e0a-32c8-41c4-b887-afafe0eb4b40">
+<img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/01665364-e095-4877-982f-824406e587ce">
+<img width="960" alt="project categories" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/5a1351f3-1444-438d-aa2c-e01e1dae81dd">
+<img width="960" alt="payment project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/30062195-b5b4-4313-857c-cfb65f4217a4">
+<img width="960" alt="login project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/e26bc9e4-eb29-4c2d-a3c2-7751e8a79c36">
+<img width="960" alt="ice cream category project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/65f6198b-a361-43ad-be48-91f5dca6e830">
+<img width="960" alt="chatbot project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/12410844-108b-4e53-83cd-2c460ccb0cf7">
+<img width="960" alt="about1 project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ff68f613-d1d9-49e7-b005-f56b34f4330a">
+<img width="960" alt="about project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/665bda93-bafc-4a5c-ac14-82002a81f028">
+<img width="960" alt="chatbot queries" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ebb295b7-eea0-4296-9be0-6e247aee45f1">
+<img width="960" alt="azure portal" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba47df9f-6758-42a7-85aa-d28d693814da">
+
+
+#Youtube demo Url
+https://youtu.be/mK1-HgthodY
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
