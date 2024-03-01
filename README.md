@@ -63,6 +63,8 @@ After deployment, it's essential to monitor the application for performance, sec
 
 ![vn](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/65d0d3d8-a6d0-44d3-ad8b-b88f8aef2096)
 <img width="960" alt="monitor2" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/adb0e283-f1f0-4064-9963-0d093bfba9ab">
+<img width="960" alt="chatbot queries" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/ba9a1901-39c4-4494-ab6c-1fecdadd2b66">
+
 
 <img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/aec52c95-668a-47f8-b147-59235cfc08c3"># snapcart
 
@@ -72,6 +74,21 @@ After deployment, it's essential to monitor the application for performance, sec
 <img width="960" alt="project home page" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/01665364-e095-4877-982f-824406e587ce">
 <img width="960" alt="project categories" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/5a1351f3-1444-438d-aa2c-e01e1dae81dd">
 <img width="960" alt="ice cream category project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/65f6198b-a361-43ad-be48-91f5dca6e830">
+<img width="960" alt="category1" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/7d906afe-5d6c-4bf3-8aac-27acbbaba160">
+<img width="960" alt="category2 project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/389eeacd-90b0-4dcb-b9d7-d80efc209826">
+<img width="960" alt="category3" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/7dd0fbc5-4e89-408a-894d-20312c055867">
+<img width="960" alt="category4" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/80e6d9e4-69ea-4350-b888-4f7e74380e08">
+<img width="960" alt="category5" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/990a9eb9-2c1d-43b0-9188-2093bef6c40a">
+<img width="960" alt="category6" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/7db0e478-bae5-49b7-91c6-9fe1bd2a67cb">
+<img width="960" alt="category7" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/b4e93ccf-0c35-446c-95e4-6bb9bf949a00">
+
+
+
+
+
+
+
+
 
 <img width="960" alt="payment project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/30062195-b5b4-4313-857c-cfb65f4217a4">
 <img width="960" alt="login project" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/e26bc9e4-eb29-4c2d-a3c2-7751e8a79c36">
