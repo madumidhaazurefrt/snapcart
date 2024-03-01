@@ -60,9 +60,7 @@ After deployment, it's essential to monitor the application for performance, sec
 <img width="960" alt="image" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/838d3610-bbd7-4cd2-9152-cf1719ff7712">
 
 
-![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/95f83fc1-6d86-45e8-82a5-a8009daa4acd)
-![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/ba521eb3-948e-412e-8290-7b7996c9c72d)
-![ai](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/cd9d0f53-4c16-498f-862d-0e7cf4e87664)
+
 ![vn](https://github.com/madumidhaazurefrt/snapcart/assets/153903199/65d0d3d8-a6d0-44d3-ad8b-b88f8aef2096)
 <img width="960" alt="monitor2" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/adb0e283-f1f0-4064-9963-0d093bfba9ab">
 <img width="960" alt="monitor3" src="https://github.com/madumidhaazurefrt/snapcart/assets/154215343/a52d75fc-d915-4047-b387-48248fb8cdad">
